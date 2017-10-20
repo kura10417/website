@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  font-family:Helvetica,sans-serif;
+}
+body{
+  background-color: #EDF2C5;
+  width: 1260px;
+  height: 940px;
+  padding: 0 160px;
+  margin: 0 auto;
+}
+h1{
+  width: 271px;
+  height: 42px;
+  float: left;
+  font-family: "Arial Black";
+  text-align: center;
+  color:#778A50;
+}
+.btn{
+  float: right;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.btn p{
+  border:#778A50 1px solid;
+  border-radius:5px;
+  background-color: #EDF2C5;
+  font-size: 12px;
+  font-family: Arial Black;
+  color: #778A50;
+  text-align: center;
+  box-shadow:2px 2px 1px rgba(20%,20%,40%,0.5);
+}
+.vertical{
+  width:2px;
+  height:23px;
+  color: #778A50;
+}
+.mian-area{
+  float: none;
+}
+.container{
+  max-width: 1260px;
+  max-height: 940;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.sidebar-left{
+  width:48%;
+  float:left;
+}
+
+h3{
+  background-color: #778A50;
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-bottom: 15px;
+  font-size: 16px;
+  color: #EDF2C5;
+  border-radius: 5px;
+  box-shadow:2px 2px 3px rgba(20%,20%,40%,0.5);
+ }
+.sidebar-left img{
+  margin-top: 15px;
+  margin-right:10px;
+  float:left;
+  width:auto;
+  height:auto;
+}
+
+.sidebar-right{
+  width:48%;
+  float:right;
+  font-size: 12px;
+}
+.sidebar-right p{
+  width:auto;
+  height:auto;
+  background-color: #F7FBDA;
+  margin-top: 15px;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 1px;　
+}
+.site-nav{
+  clear: both;
+    width: 940px;
+    height: 44px;
+    background-color: #778a50;
+    border-radius: 3px;
+    margin-top: 20px;
+   box-shadow: 2px 2px 5px #778a50;
+}
+.site-nav ul{
+margin: 0;
+padding: 0;
+}
+.site-nav li{
+  list-style: none;
+  float:left;
+  margin-right: 60px;
+  color: #EDF2C5;
+  background-color:  #778A50;
+  margin: 16px 30px 16px 30px;
+}
+.site-nav a{
+  display: block;
+  color: #EDF2C5;
+  padding: 16px 30px;
+}
+hr{
+  margin: 2px;
+}
+
+footer{
+  background-color: #778A50;
+  text-align:center;
+  color:#EDF2C5;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  font-family: "ArialMT Regular",Helvetica,sans-serif;
+  font-size: 12px;
+
+}
