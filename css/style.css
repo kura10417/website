@@ -1,32 +1,44 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
+  font-family:Helvetica,sans-serif;
   width: auto;
   height: auto;
-  font-family:Helvetica,sans-serif;
+  padding: 0  ;
+  margin: 0;
 }
 body{
   background-color: #EDF2C5;
   width: 1260px;
-  height: 940px;
-  padding: 0 160px;
-  margin: 0 auto;
+  height: auto;
+  padding: 0 160px ;
+  margin: 0 ;
+}
+header{
+
 }
 h1{
-  width: 271px;
+  width:271px;
   height: 42px;
+  font-size: 44px;
   float: left;
-  font-family: "Arial Black";
-  text-align: center;
+  font-family: Arial Black;
+  text-align: left;
   color:#778A50;
+  margin-top: 53px;
+  margin-bottom: 8px;
 }
-.btn{
-  float: right;
-  margin-top: 5px;
-  margin-bottom: 5px;
+
+.btn a{
+  float:right;
+  margin-right: 5px;
+  width:auto;
+  height: 42px;
+  margin-top: 53px;
+  margin-bottom: 8px;
+
 }
-.btn p{
+h4{
+  margin: 3px;
   border:#778A50 1px solid;
   border-radius:5px;
   background-color: #EDF2C5;
@@ -79,15 +91,20 @@ h3{
   width:48%;
   float:right;
   font-size: 12px;
+
 }
-.sidebar-right p{
+.sidebar-right-p{
   width:auto;
-  height:auto;
+  height:140px;
   background-color: #F7FBDA;
   margin-top: 15px;
   font-size: 12px;
-  line-height: 12px;
-  letter-spacing: 1px;　
+  line-height: 20px;
+  letter-spacing: 1px;
+
+}
+.sidebar-right p{
+  margin: 15px;
 }
 .site-nav{
   clear: both;
@@ -115,21 +132,30 @@ padding: 0;
   color: #EDF2C5;
   padding: 16px 30px;
 }
-hr{
-  margin: 2px;
+.sidebar-hr{
+  margin: 15px;
+  color: #7D7D7D;
+  size:1px;
 }
 
 footer{
+
   background-color: #778A50;
   text-align:center;
   color:#EDF2C5;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
   padding-top: 24px;
   padding-bottom: 25px;
-  font-family: "ArialMT Regular",Helvetica,sans-serif;
+  font-family: ArialMT Regular,Helvetica,sans-serif;
   font-size: 12px;
+}
+#footer{
+  position:absolute;
+  box-sizing: border-box;
+  bottom: -200;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 60px;
+  clear: both;
 
 }
